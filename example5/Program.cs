@@ -13,7 +13,7 @@ int A = int.Parse(input);
 //int kkk = A%10;
 //Console.WriteLine(kkk);1
 
-if (A>=100)
+if (A>=100 && A<=999)
 {
     int kkk = A%10;
     Console.WriteLine(kkk);
