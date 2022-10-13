@@ -10,5 +10,15 @@
 Console.WriteLine("Введите число N");
 string input = Console.ReadLine();
 int A = int.Parse(input);
-int kkk = A%10;
-Console.WriteLine(kkk);
+//int kkk = A%10;
+//Console.WriteLine(kkk);1
+
+if (A>=100)
+{
+    int kkk = A%10;
+    Console.WriteLine(kkk);
+}
+else
+{
+    Console.WriteLine("Введите трехзначное число");
+}
