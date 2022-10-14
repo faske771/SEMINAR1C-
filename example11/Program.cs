@@ -15,3 +15,6 @@ else
     System.Console.WriteLine("false");
     }
 }
+
+//if (Math.Pow(A, 2) ==B);  if (Math.Sqrt(B) == A);
+//if if (Math.Pow(A, 2) ==B) || (Math.Pow(B, 2) == A);a
